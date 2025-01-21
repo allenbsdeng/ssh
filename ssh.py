@@ -22,11 +22,6 @@ def main():
 
     #UpLoadFile( ssh, localpath, remotepath )
     DownLoadFile( ssh, Download_local_path, remotepath )
-    #sftp.get(remotepath,Download_local_path) # Download File to local
-    #sftp.put(localpath, remotepath) # UpLoad File to remotePath
-    #sftp.close()
-
-
     
     ssh.close()
 
